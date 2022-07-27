@@ -8,6 +8,8 @@ goto no
 
 :yes
 echo Deployment started...
+npm run lint
+npm run format
 npm run build
 git add .\dist\ -f
 git commit -m "Deploy build"
