@@ -1,11 +1,11 @@
 <script setup>
-import { ref } from 'vue'
+import { ref } from 'vue';
 
 defineProps({
-  msg: String
-})
+  msg: String,
+});
 
-const count = ref(0)
+const count = ref(0);
 </script>
 
 <template>
@@ -15,9 +15,13 @@ const count = ref(0)
   </div>
 
   <div>
-    <button type="button" data-mdb-ripple="true" data-mdb-ripple-color="primary"
-      class="inline-block px-6 py-2 border-2 border-blue-600 text-blue-600 font-medium text-xs leading-tight uppercase rounded hover:bg-blue-600 hover:text-white focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
-      @click="count++">
+    <button
+      type="button"
+      data-mdb-ripple="true"
+      data-mdb-ripple-color="primary"
+      class="border-2 inline-block px-6 py-2 border-blue-600 text-blue-600 font-medium text-xs leading-tight uppercase rounded hover:bg-blue-600 hover:text-white focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
+      @click="count++"
+    >
       count is {{ count }}
     </button>
   </div>
