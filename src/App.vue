@@ -6,7 +6,7 @@ import HelloWorld from './components/HelloWorld.vue';
 
 <template>
   <h1
-    class="text-5xl font-bold leading-[1.3em] underline underline-offset-[12px] decoration-wavy decoration-sky-400 text-center"
+    class="text-center text-5xl font-bold leading-[1.3em] underline decoration-sky-400 decoration-wavy underline-offset-[12px]"
   >
     Type the story you are reading
   </h1>
